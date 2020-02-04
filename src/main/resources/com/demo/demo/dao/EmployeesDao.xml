@@ -5,8 +5,8 @@
 
 <mapper namespace = "com.demo.demo.dao.EmployeesDao">
 
-    <select id = "getEmail">
-        select email from employees;
+    <select id = "getEmail" resultType="string">
+        select email from employees
     </select>
 
 </mapper>
